@@ -51,7 +51,7 @@ DICTIONARY_SUBSTITUTIONS = {
     'py2': ['python2', 'python', 'python3', 'py', 'py3']
 }
 
-URL_TOP_5000_PACKAGES = "https://hugovk.github.io/top-pypi-packages/top-pypi-packages-30-days.min.json"
+URL_TOP_5000_PACKAGES = "https://hugovk.github.io/top-pypi-packages/top-pypi-packages.min.json"
 
 
 def levenshtein_check(package, popular_packages):
